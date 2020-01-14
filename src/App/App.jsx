@@ -1,8 +1,18 @@
 import React from 'react';
+import './App.scss';
+import Header from './Header/Header.jsx';
+import Nav from './Nav/Nav.jsx';
+import Main from './Main/Main.jsx';
+import Footer from './Footer/Footer.jsx';
 
 const App = () => {
     return (
-        <div>Oh heyyyy I made an app! I'm a genius</div>
+        <div className='wrapper'>
+            <Header />
+            <Nav />
+            <Main />
+            <Footer />
+        </div>
     )
 }
 
