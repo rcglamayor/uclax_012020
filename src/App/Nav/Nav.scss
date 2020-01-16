@@ -1,4 +1,56 @@
 .Nav {
     background: rgb(88, 142, 173);
     padding: 20px;
+
+    .hamburger {
+        background-color: rgb(122, 189, 228);
+        display: block;
+    }
+    .links {
+        background-color: yellow;
+        text-align: center;
+
+        a {
+            background-color: purple;
+            color: #fff;
+            display: block;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            transition: all 1s;
+
+            &:hover {
+                background-color: green;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .Nav {
+        background: rgb(194, 6, 0);
+        
+        .hamburger {
+            display: none;
+        }
+
+        .links {
+            a {
+                display: inline-block;
+            }
+        }
+    }
+}
+@media screen and (min-width: 800px) {
+    .Nav {
+        background: rgb(127, 0, 177);
+        
+        .hamburger {
+            display: none;
+        }
+    }
 }
