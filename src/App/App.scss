@@ -1,25 +1,26 @@
 body {
-    background-color: rgb(215, 247, 212);
+    background-color: rgb(39, 40, 77);
 }
 .wrapper {
     min-width: 320px;
     max-width: 1000px;
-    border: solid 10px teal;
+    border: solid 10px rgb(64, 67, 129);
     padding: 20px;
     margin: 25px auto;
     background-color: #fff;
+    // position: relative;
 }
 
 @media screen and (min-width: 600px) {
     body {
-        background-color: rgb(212, 217, 247);
+        // background-color: rgb(212, 217, 247);
     }
     
 }
 
 @media screen and (min-width: 800px) {
     body {
-        background-color: rgb(247, 226, 212);
+        // background-color: rgb(247, 226, 212);
     }
     
 }
