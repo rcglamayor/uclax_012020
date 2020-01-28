@@ -50,9 +50,9 @@
     .Nav {
         background: rgb(66, 67, 129);
         
-        .hamburger {
-            display: none;
-        }
+        // .hamburger {
+        //     display: none;
+        // }
 
         .links {
             a {
@@ -62,11 +62,11 @@
     }
 }
 @media screen and (min-width: 800px) {
-    .Nav {
-        background: #fff;
+    // .Nav {
+    //     background: #fff;
         
-        .hamburger {
-            display: none;
-        }
-    }
+    //     .hamburger {
+    //         display: none;
+    //     }
+    // }
 }
